@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="74" height="39" viewBox="0 0 74 39">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="74" height="32" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_30540" data-name="Group 30540" transform="translate(-303 -343)">
+    <rect id="Rectangle_16360" data-name="Rectangle 16360" width="34" height="4" rx="1" transform="translate(303 343)" fill="#404557"/>
+    <g id="Repeat_Grid_46" data-name="Repeat Grid 46" transform="translate(303 350)" clip-path="url(#clip-path)">
+      <g transform="translate(-197 -350)">
+        <rect id="Rectangle_16361" data-name="Rectangle 16361" width="74" height="4" rx="1" transform="translate(197 350)" fill="#404557"/>
+      </g>
+      <g transform="translate(-197 -343)">
+        <rect id="Rectangle_16361-2" data-name="Rectangle 16361" width="74" height="4" rx="1" transform="translate(197 350)" fill="#404557"/>
+      </g>
+      <g transform="translate(-197 -336)">
+        <rect id="Rectangle_16361-3" data-name="Rectangle 16361" width="74" height="4" rx="1" transform="translate(197 350)" fill="#404557"/>
+      </g>
+      <g transform="translate(-197 -329)">
+        <rect id="Rectangle_16361-4" data-name="Rectangle 16361" width="74" height="4" rx="1" transform="translate(197 350)" fill="#404557"/>
+      </g>
+      <g transform="translate(-197 -322)">
+        <rect id="Rectangle_16361-5" data-name="Rectangle 16361" width="74" height="4" rx="1" transform="translate(197 350)" fill="#404557"/>
+      </g>
+    </g>
+  </g>
+</svg>

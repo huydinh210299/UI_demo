@@ -1,0 +1,86 @@
+@import "header.css";
+@import "drop-zone.css";
+@import "left-menu.css";
+@import "right-menu.css";
+@import "edit-text.css";
+@import "extra-left-menu.css";
+
+body{
+    margin: unset;
+    padding: unset;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+}
+
+/*mặc định các nút trỏ vào là hình bàn tay*/
+.btn-desktop-device,.btn-mobile-device,.btn-undo,.btn-redo,.btn-design,.btn-setting,.btn-more-template,
+.btn-publish,.btn-preview,.btn-save,.btn-edit,.btn-effect,.btn-event,.btn-template-wrapper,.btn-basic-wrapper,
+.btn-mobile-device-preview,.btn-desktop-device-preview,.btn-back-preview,.btn-list-block{
+    cursor: pointer;
+}
+
+
+/*Theme*/
+/* .gjs-one-bg{
+    background-color: #F6F7F9 !important;
+} */
+
+.gjs-sm-title{
+    color: #404557;
+    font-family:  -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
+    font-weight:  400 !important;
+    border-bottom: 2px solid #E3E5E9 !important;
+}
+
+.gjs-sm-properties {
+    background-color: #F6F7F9;
+}
+
+.gjs-sm-sector{
+    color: #404557;
+    font-weight: 400 !important;
+}
+
+.gjs-sm-title{
+    background-color: #F6F7F9 !important;
+}
+
+
+/*
+border khi chuyển trang giữa thiết kế và thiết lập
+*/
+
+.tab-btn.active{
+    border-bottom:4px solid #F2613D;
+    color: #fff;
+}
+
+.btn-block.active{
+    border-bottom:2px solid #060E2E;
+    color: #060E2E;
+}
+
+.btn-desktop-device.active{
+    background-color: #C0C4CC;
+}
+
+.btn-mobile-device.active{
+    background-color: #C0C4CC;
+}
+
+/* .gjs-dashed{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll !important;
+}
+
+.gjs-dashed::-webkit-scrollbar {
+    display: none !important;
+} */

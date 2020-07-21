@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="20" height="20" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Repeat_Grid_62" data-name="Repeat Grid 62" clip-path="url(#clip-path)">
+    <g id="Group_30420" data-name="Group 30420" transform="translate(-563 -271)">
+      <rect id="Rectangle_16205" data-name="Rectangle 16205" width="20" height="20" transform="translate(563 271)" fill="none"/>
+      <g id="Layer_2" data-name="Layer 2" transform="translate(565 272)">
+        <g id="Layer_1" data-name="Layer 1">
+          <path id="Path_173" data-name="Path 173" d="M13.61,7,11,0H9.7L7.08,7H5.27V8h10V7ZM10.22,1.48a2.44,2.44,0,0,0,.1-.44h0a3,3,0,0,0,.09.44l1,2.79H9.26ZM8.35,7,9,5.22h2.75L12.34,7Z" fill="#404557"/>
+          <path id="Path_174" data-name="Path 174" d="M11,9.1H9.7l-2.62,7H5.27v1h10v-1H13.61Zm-.79,1.48a2.66,2.66,0,0,0,.1-.44h0a3,3,0,0,0,.09.44l1,2.79H9.26ZM8.35,16.1,9,14.32h2.75l.63,1.78Z" fill="#404557"/>
+          <path id="Path_175" data-name="Path 175" d="M4.86,9.57,2.43,7.14,0,9.57H1.93v5.14H0l2.43,2.43,2.43-2.43H2.93V9.57Z" fill="#404557"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

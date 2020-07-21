@@ -1,0 +1,144 @@
+/*chỉnh sửa menu bên trái*/
+.left-menu{
+    position: absolute;
+    z-index: 3;
+    width: 200px;
+    top: 22px;
+    height: calc(100% - 22px);
+    background-color: #F6F7F9;
+}
+
+.left-menu-switcher{
+    height: 46px;
+    width: 100%;
+    background-color: #fff;
+    border-top: thin solid #404557;
+    border-bottom: 2px solid #E3E5E9;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-template-wrapper,.btn-basic-wrapper{
+    height: 100%;
+    width: 50%;
+    display: table;
+    position: relative;
+}
+
+
+.btn-template{
+    width: 31.56px;
+}
+
+.btn-basic{
+    width: 50.45px;
+}
+
+.btn-basic,.btn-template{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: -2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #6E717D;
+}
+
+/*
+*Chỉnh sửa danh sách nội dung  template và basic block
+*/
+
+.template-comp,.block-cate,.sample{
+    width: 100%;
+    height: calc(100% - 50px);
+    background-color: #F6F7F9;
+}
+
+.basic-comp{
+    display: none;
+}
+
+/*theme cho các block*/
+.gjs-pn-panels{
+    display: none;
+}
+
+.gjs-blocks-cs{
+    background-color: #F6F7F9 !important;
+}
+
+.gjs-title{
+    background-color: #404557 !important;
+    border-radius: 8px;
+    color: #fff;
+}
+
+/*block content*/
+#blocks{
+    position: absolute;
+    width: 220px;
+    height: calc(100% - 28px);
+    background-color: #F6F7F9;
+    left: 200px;
+    top: 23px;
+    z-index: 3;
+    background-color: #EBEDF1;
+}
+
+/*chỉnh sửa cho nội dung bọc các block*/
+.template-comp,.block-cate{
+    padding: 8px;
+}
+
+.btn-list-block{
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #404557;
+}
+
+.block-cate p, .template-comp p{
+    margin: auto 0;
+    margin-left: 10px;
+}
+
+.block-cate i, .template-comp i{
+    margin-right: 10px;
+}
+
+/*căn chỉnh các khối block*/
+.gjs-block{
+    height: 98px !important;
+    width: 98px !important;
+    background-color: #fff !important;
+    border-radius: 8px !important;
+}
+
+.gjs-blocks-c {
+    background-color: #EBEDF1;
+}
+
+
+/*màu cho các btn-list-block khi active*/
+.btn-list-block.active{
+    background-color: #404557;
+    border: #707070;
+    color: #fff;
+}
+
+.block{
+    margin-bottom: 16px;
+}
+.gjs-block-label p{
+    color: #404557;
+}

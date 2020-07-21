@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="30" height="30" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.889" y1="0.948" x2="0.202" y2="0.156" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff416a"/>
+      <stop offset="1" stop-color="#ff4b2b"/>
+    </linearGradient>
+  </defs>
+  <g id="Repeat_Grid_45" data-name="Repeat Grid 45" clip-path="url(#clip-path)">
+    <g transform="translate(-15 -15)">
+      <g id="Layer_2" data-name="Layer 2" transform="translate(15 15)">
+        <g id="Layer_1" data-name="Layer 1">
+          <rect id="Rectangle_16180" data-name="Rectangle 16180" width="30" height="30" rx="7.57" fill="url(#linear-gradient)"/>
+          <path id="Path_151" data-name="Path 151" d="M15,4.58A10.43,10.43,0,0,0,4.58,15a9.87,9.87,0,0,0,.07,1.22l4-1.15V15A6.34,6.34,0,1,1,15,21.34a5.92,5.92,0,0,1-1.47-.17l-2,3.66A10.42,10.42,0,1,0,15,4.58Z" fill="#fff"/>
+          <path id="Path_152" data-name="Path 152" d="M15,15,3.81,18.21l4.22,1.42,4.81-2.93L8.7,20.22l.94,4.54Z" fill="#fff"/>
+          <circle id="Ellipse_2168" data-name="Ellipse 2168" cx="0.9" cy="0.9" r="0.9" transform="translate(14.1 14.1)" fill="#fff" opacity="0.85"/>
+          <path id="Path_153" data-name="Path 153" d="M18.26,12.55l-.15-.19A4.08,4.08,0,0,0,11,14.41l.65-.19A3.49,3.49,0,0,1,15,11.52a3.44,3.44,0,0,1,2.46,1,3.09,3.09,0,0,1,.48.59A3.48,3.48,0,0,1,15,18.48l-.32.59H15a4.08,4.08,0,0,0,3.26-6.53Z" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../source/font/stylesheet.css">
+    <link rel="stylesheet" href="../source/css/index.css">
+    <link rel="stylesheet" href="../source/css/grapes.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+
+        <!-- header -->
+        <div class="header row">
+            <div class="basic-control col-md-5">
+                <div class="brand-icon"></div>
+                <div class="brand-border-left"></div>
+                <div class="btn-save">
+                    <div class="btn-save-icon"></div>
+                    <div class="btn-save-content">Lưu</div>
+                </div>
+            </div>
+            <div class="tab-control col-md-3">
+                <div class="btn-border">
+                    <div class="btn-design tab-btn active">Thiết kế</div>
+                </div>
+                <div class="btn-border">
+                    <div class="btn-setting tab-btn">Thiết lập</div>
+                </div>
+            </div>
+            <div class="preview-public-control col-md-4">
+                <div class="btn-preview">
+                    <div class="btn-preview-icon"></div>
+                    <div class="btn-preview-content">Xem trước</div>
+                </div>
+                <div class="btn-publish">
+                    <div class="btn-publish-content">Xuất bản</div>
+                    <div class="btn-publish-icon"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- edit text -->
+        <div class="edit-text">
+            <div class="btn-more-template">
+                <div style="font-weight: bold; color: #3160D8;">Thêm</div>
+                <div class="more-template-icon"><i class="fas fa-chevron-down"></i></div>
+            </div>
+            <div class="btn-undo"></div>
+            <div class="btn-redo"></div>
+            <div class="edit-text-wrapper">
+                <!--font-->
+                <div class="option-wrapper font-wrapper">
+                    <div class="option-field font">
+                        <label class="select2">
+                            <select>
+                                <option selected>SVN-Glory</option>
+                                <option>Short Option</option>
+                                <option>Times New Roman</option>
+                            </select>
+                        </label>
+                    </div>
+                </div>
+                <div class="option-wrapper type-wrapper">
+                    <div class="option-field type">
+                        <label class="select2">
+                            <select>
+                                <option selected>Regular</option>
+                                <option>Black</option>
+                                <option>Bold</option>
+                                <option>Italic</option>
+                            </select>
+                        </label>
+                    </div>
+                </div>
+
+                <!--Align-->
+                <div class="align-list d-flex">
+                    <div class="align-item flex-fill align-left"></div>
+                    <div class="align-item flex-fill align-center"></div>
+                    <div class="align-item flex-fill align-right"></div>
+                </div>
+                <div class="spacing d-flex justify-content-between">
+                    <div class="spacing-item spacing-word">
+                        <div class="spacing-icon"></div>
+                        <div class="option-field1">
+                            <div class="custom_input">
+                                <input type="number" min="0" value="0" class="number">
+                                <div class="buttons">
+                                    <div class="add_btn"><i class="fas fa-chevron-up"></i></div>
+                                    <div class="sub_btn"><i class="fas fa-chevron-down"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="spacing-item spacing-line">
+                        <div class="spacing-icon"></div>
+                        <div class="option-field1">
+                            <div class="custom_input">
+                                <input type="number" min="0" value="0" class="number">
+                                <div class="buttons">
+                                    <div class="add_btn"><i class="fas fa-chevron-up"></i></div>
+                                    <div class="sub_btn"><i class="fas fa-chevron-down"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!--text type-->
+                <div class="text-type d-flex justify-content-between">
+                    <div class="text-type-item double-text"></div>
+                    <div class="text-type-item uder-line"></div>
+                    <div class="text-type-item line-through"></div>
+                    <div class="text-type-item vertical-top"></div>
+                    <div class="text-type-item vertical-bottom"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- khu vực kéo thả và điều chỉnh thuộc tính -->
+        <div class="main-view">
+            <div class="wrap-drop-zone">
+                <div class="left-menu">
+                    <div class="left-menu-switcher">
+                        <div class="btn-template-wrapper active">
+                            <div class="btn-template btn-block active">Mẫu</div>
+                        </div>
+                        <div class="btn-basic-wrapper">
+                            <div class="btn-basic btn-block">Cơ bản</div>
+                        </div>
+                    </div>
+                    <div class="template-comp">
+                        <div class="sample btn-list-block">Mẫu<i class="fas fa-chevron-right"></i></div>
+                    </div>
+                    <div class="block-cate">
+                        <div class="layout btn-list-block">Chia bố cục<i class="fas fa-chevron-right"></i></div>
+                        <div class="basic btn-list-block">Căn bản<i class="fas fa-chevron-right"></i></div>
+                        <div class="application btn-list-block">Ứng dụng<i class="fas fa-chevron-right"></i></div>
+                    </div>
+                </div>
+
+                <!--extra left menu-->
+                <div class="extra-left-menu">
+                    <div class="layer-manager"></div>
+                    <div class="device-setting">
+                        <div class="btn-desktop-device active"></div>
+                        <div class="btn-mobile-device"></div>
+                    </div>
+                </div>
+                <!-- <div class="drop-zone"></div> -->
+                <div class="editor-canvas">
+                    <div id="gjs"></div>
+                </div>
+                
+                <!--Thành phần hiển thị của các loại block-->
+                <div id="blocks">
+
+                </div>
+            </div>
+            <div class="right-menu">
+                <div class="switch-menu d-flex">
+                        <div class="btn-edit-wrap flex-fill">
+                            <div class="btn-edit">
+                                <div class="btn-edit-icon"></div>
+                                <div class="btn-edit-content">Chỉnh sửa</div>
+                            </div>
+                        </div>
+                        <div class="btn-effect-wrap flex-fill">
+                            <div class="btn-effect">
+                                <div class="btn-effect-icon"></div>
+                                <div class="btn-effect-content">Hiệu ứng</div>
+                            </div>
+                        </div>
+                        <div class="btn-event-wrap flex-fill">
+                            <div class="btn-event">
+                                <div class="btn-event-icon"></div>
+                                <div class="btn-event-content">Sự kiện</div>
+                            </div>
+                        </div>
+                </div>
+                <div class="style-content"></div>
+                <div class="effect-content">
+                    <div style="color: #6E717D; font-size: 10px;">Kiểu hiệu ứng</div>
+                    <label class="select">
+                        <select>
+                            <option selected>Stretch-horizontal</option>
+                            <option>Short Option</option>
+                            <option>This Is A Longer Option</option>
+                        </select>
+                    </label>
+                    <div class="option-wrapper">
+                        <div class="label option-label">Kiểu gia tốc</div>
+                        <div class="option-field">
+                            <label class="select2">
+                                <select>
+                                    <option selected>Stretch-horizontal</option>
+                                    <option>Short Option</option>
+                                    <option>This Is A Longer Option</option>
+                                </select>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="option-wrapper">
+                        <div class="label option-label">Độ chậm(s)</div>
+                        <div class="option-field1">
+                            <div class="custom_input">
+                                <input type="number" min="0" value="0" class="number">
+                                <div class="buttons">
+                                    <div class="add_btn"><i class="fas fa-chevron-up"></i></div>
+                                    <div class="sub_btn"><i class="fas fa-chevron-down"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="option-wrapper">
+                        <div class="label option-label">Thời gian(s)</div>
+                        <div class="option-field1">
+                            <div class="custom_input">
+                                <input type="number" min="0" value="0" class="number">
+                                <div class="buttons">
+                                    <div class="add_btn"><i class="fas fa-chevron-up"></i></div>
+                                    <div class="sub_btn"><i class="fas fa-chevron-down"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="option-wrapper">
+                        <div class="label option-label">Lặp lại hiệu ứng</div>
+                        <div class="option-field">
+                            <label class="select2">
+                                <select>
+                                    <option selected>Không</option>
+                                    <option>Luôn luôn</option>
+                                </select>
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="event-content">
+                    <p style="font-size: 14px; font-weight: 500;">Tên section đang chọn</p>
+                    <div style="color: #6E717D; font-size: 10px;">Kiểu hiệu ứng</div>
+                    <label class="select-event">
+                        <select>
+                            <option selected value="1">Lựa chọn sự kiện</option>
+                            <option value="2">Chuyển section</option>
+                            <option value="3">Mở liên kết</option>
+                            <option value="4">Sự kiện đếm</option>
+                        </select>
+                    </label>
+                        <div class="moveSection-content">
+                            <div class="option-wrapper">
+                                <div class="label option-label">Section</div>
+                                <div class="option-field">
+                                    <label class="select2">
+                                        <select>
+                                            <option>Section 1234</option>
+                                            <option>Section 2345</option>
+                                        </select>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="openLink-content">
+                            <div class="label">URL</div>
+                            <input type="text" class="url" style="font-size: 12px;">
+                            <div class="checkbox">
+                                <input type="checkbox" id="blank" name="blank" value="1">
+                                <div>Mở cửa sổ mới</div>
+                            </div>
+                        </div>
+                        <div class="count-content">
+                            <div class="option-wrapper">
+                                <div class="label option-label">Loại đếm</div>
+                                <div class="option-field">
+                                    <label class="select2">
+                                        <select>
+                                            <option>Không chọn</option>
+                                            <option>Tăng dần</option>
+                                            <option>Giảm dần</option>
+                                        </select>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="option-wrapper">
+                                <div class="label option-label">K.cách chạy</div>
+                                <div class="option-field">
+                                    <input type="text">
+                                </div>
+                            </div>
+                            <div class="option-wrapper">
+                                <div class="label option-label">Số lượng tăng</div>
+                                <div class="option-field">
+                                    <input type="text">
+                                </div>
+                            </div>
+                            <div class="option-wrapper">
+                                <div class="label option-label">Giới hạn tăng</div>
+                                <div class="option-field">
+                                    <input type="text">
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--header khi preview-->
+    <div class="header-preview" style="display: none;">
+        <div class="basic-control-preview">
+            <div class="brand-icon-preview"></div>
+            <div class="brand-border-left-preview"></div>
+            <div class="btn-back-preview">
+                <div class="btn-back-icon-preview"><i class="fas fa-chevron-left"></i></div>
+                <div class="btn-back-content-preview">Quay lại</div>
+            </div>
+            <div class="btn-desktop-device-preview"></div>
+            <div class="btn-mobile-device-preview"></div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="../source/js/component/basic/basic-component.js"></script>
+    <script src="../source/js/component/layout/layout-component.js"></script>
+    <script src="../source/js/grapesJS/grapes.min.js"></script>
+    <script src="../source/js/grapesJS/resource.js"></script>
+    <script src="../source/js/grapesJS/GrapesJS.init.js"></script>
+    <script src="../source/js/UI/header-act.js"></script>
+    <script src="../source/js/UI/right-menu-act.js"></script>
+    <script src="../source/js/UI/left-menu-act.js"></script>
+    <script src="../source/js/UI/index.js"></script>
+</body>
+</html>

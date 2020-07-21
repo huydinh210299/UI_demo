@@ -1,0 +1,236 @@
+.header{
+    height: 60px;
+    width: 100%;
+    background-color: #262135;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+
+}
+.header,.header-preview{
+    height: 60px;
+    width: 100vw;
+    background-color: #262135;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    
+}
+
+/*basic-control*/
+/*icon misa*/
+.basic-control{
+    display: flex;
+}
+.brand-icon{
+    width: 59px;
+    height: 100%;
+    background-image: url("../img/common/Logo-Misa.svg");
+    background-size: 30px 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.brand-border-left{
+    width: 1px;
+    height: 30px;
+    background-color: #707070;
+    margin-top: 15px;
+}
+
+/*Nút lưu*/
+.btn-save{
+    display: flex;
+    padding-right: 20px;
+}
+
+.btn-save-icon{
+    height: 100%;
+    width: 30px;
+    background-image: url("../img/common/Icon-Save.svg");
+    background-size: 30px 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.btn-save-content{
+    color:white;
+    margin: auto;
+    font-size: larger;
+}
+
+/*undo and redu button*/
+.btn-undo,.btn-redo{
+    width: 40px;
+    height: 100%;
+}
+
+.btn-undo{
+    margin-left: 12px;
+    background-image: url("../img/common/Icon-Undo.svg");
+    background-size: 16px 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.btn-redo{
+    background-image: url("../img/common/Icon-Redo.svg");
+    background-size: 16px 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*Control thiết kế và thiết lập*/
+.tab-control{
+    display: flex;
+}
+
+.tab-control .btn-border{
+    height: 100%;
+    width: auto;
+    display: table;
+}
+
+.btn-design,.btn-setting{
+    color: #C0C4CC;
+    margin: auto;
+    font-size: 120%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align:center;
+}
+
+.btn-border{
+    margin-right: 30px;
+}
+
+/*preview control*/
+.preview-public-control{
+    display: flex;
+    justify-content: flex-end;
+}
+.btn-preview{
+    height: 100%;
+    width: auto;
+    display: flex;
+}
+
+.btn-preview-icon{
+    height: 100%;
+    width: 20px;
+    background-image: url("../img/common/Icon-Preview.svg");
+    background-size: 20px 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 14px;
+}
+.btn-preview-content{
+    margin: auto;
+    color: #fff;
+}
+
+/*Nút xuất bản*/
+.btn-publish{
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding-left: 25px;
+    display: flex;
+    margin-left: 40px;
+    background-color: #F2613D;
+}
+
+.btn-publish-content{
+    padding-right: 10px;
+    color: white;
+    margin: auto;
+}
+
+.btn-publish-icon{
+    margin: auto 5px;
+    height: 100%;
+    width: 30px;
+    background-image: url("../img/common/Icon-Export.svg");
+    background-size: 20px 20px;
+    background-position: 0px 8px;
+    background-repeat: no-repeat;
+}
+
+/*
+    căn chỉnh nút thoát preview
+*/
+.btn-back{
+    display: flex;
+    margin: auto 20px;
+}
+
+.btn-back-icon{
+    margin: auto 5px;
+    height: 100%;
+    width: 16px;
+    background-image: url("../img/common/Icon-Left.svg");
+    background-size: 16px 16px;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.btn-back-content{
+    color: #fff;
+    margin: auto;
+}
+
+
+/*căn chỉnh cho header preview*/
+
+.basic-control-preview{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.brand-icon-preview{
+    margin: auto 15px;
+    height: 100%;
+    width: 30px;
+    background-image: url("../img/common/Logo-Misa.svg");
+    background-size: 30px 30px;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.brand-border-left-preview{
+    width: 1px;
+    height: 30px;
+    background-color: #707070;
+    margin-top: 15px;
+}
+
+.btn-back-preview{
+    display: flex;
+    color: #fff;
+    margin: auto 20px;
+}
+
+.btn-back-preview i{
+    font-size: 90%;
+    margin-right: 8px;
+}
+
+.btn-desktop-device-preview{
+    width: 70px;
+    height: 100%;
+    background-image: url("../img/common/Icon-Desktop.svg");
+    background-size: 30px 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.btn-mobile-device-preview{
+    width: 70px;
+    height: 100%;
+    background-image: url("../img/common/Icon-Mobile.svg");
+    background-size: 30px 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+}

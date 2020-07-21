@@ -1,0 +1,207 @@
+.edit-text{
+    height: 40px;
+    width: 100%;
+    background-color: #F6F7F9;
+    display: flex;
+}
+
+.edit-text-wrapper{
+    display: flex;
+}
+
+/*Căn chỉnh nút xem thêm*/
+.btn-more-template {
+    display: flex;
+    margin: 6px 8px;
+    padding: 0px 11px;
+    border: thin solid #E8EAF1;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.more-template-icon{
+    font-size: 90%;
+    margin: auto 0px;
+    margin-left: 10px;
+    color: #3160D8;
+}
+/*css select font*/
+.edit-text .option-wrapper{
+        width: auto !important;
+}
+
+.edit-text .option-wrapper .font{
+    width: 160px;
+}
+
+.edit-text .option-wrapper .type{
+    width: 120px;
+}
+
+.font-wrapper{
+    margin-left: 30px;
+}
+
+.type-wrapper{
+    margin-left: 16px;
+}
+
+.edit-text .option-wrapper *{
+    text-indent: 0px !important;
+}
+
+.edit-text .select2:after{
+    right: 5px !important;
+    top: 9px !important;
+}
+
+/*align type*/
+.align-list{
+    width: 75px;
+    height: 25px;
+    margin: auto 0;
+    margin-left: 24px;
+    background-color: #fff;
+    border: thin solid #DEE1E5;
+    border-radius: 3px;
+}
+
+.align-item{
+    border-right: thin solid #DEE1E5;
+}
+
+.align-item:last-child{
+    border: unset;
+}
+
+.align-left{
+    background-image: url("../img/edit-text/Icon-Align-Left.svg");
+    background-size: 12px 12px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.align-center{
+    background-image: url("../img/edit-text/Icon-Align-Center.svg");
+    background-size: 12px 12px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.align-right{
+    background-image: url("../img/edit-text/Icon-Align-Right.svg");
+    background-size: 12px 12px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*spacing*/
+.spacing{
+    height: 25px;
+    width: 150px;
+    margin: auto 0;
+    margin-left: 24px;
+}
+
+.spacing-item{
+    display: flex;
+    margin-right: 20px;
+}
+
+.spacing-item .option-field1{
+    width: 40px !important;
+    margin: auto;
+    /* border: none !important; */
+}
+
+.spacing .spacing-word .spacing-icon{
+    margin-right: 8px;
+    width: 20px;
+    height: 100%;
+    background-image: url("../img/edit-text/Icon-Word-Spacing.svg");
+    background-size: 20px 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.spacing .spacing-line .spacing-icon{
+    margin-right: 8px;
+    width: 20px;
+    height: 100%;
+    background-image: url("../img/edit-text/Icon-Line-Spacing.svg");
+    background-size: 20px 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.spacing .option-field1{
+    height: 100%;
+}
+
+.spacing .option-field1 input{
+    text-indent: 0px !important;
+}
+
+.spacing .option-field1 .add_btn{
+    height: 14px;
+    color: #6E717D;
+}
+
+.spacing .option-field1 .sub_btn{
+    height: 10px;
+    color: #6E717D;
+}
+
+.spacing .custom_input .buttons {
+    width: 12%;
+    margin-left: -3px;
+    margin-top: -3px;
+}
+
+/*text type*/
+
+.text-type{
+    width: 180px;
+    height: 20px;
+    margin: auto;
+    margin-left: 24px;
+}
+
+.text-type-item{
+    width: 20px;
+    height: 100%;
+}
+.text-type-item.double-text{
+    background-image: url("../img/edit-text/Icon-Double-Text.svg");
+    background-size: 20px 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.text-type-item.uder-line{
+    background-image: url("../img/edit-text/Icon-Underline-Text.svg");
+    background-size: 10px 12.15px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.text-type-item.line-through{
+    background-image: url("../img/edit-text/Icon-LineThrough-Text.svg");
+    background-size: 10px 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.text-type-item.vertical-top{
+    background-image: url("../img/edit-text/Icon-Vertical-Top.svg");
+    background-size: 13.27px 10.86px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.text-type-item.vertical-bottom{
+    background-image: url("../img/edit-text/Icon-Vertical-Bottom.svg");
+    background-size: 12.32px 11.17px;
+    background-position: center;
+    background-repeat: no-repeat;
+}

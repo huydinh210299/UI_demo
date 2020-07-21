@@ -1,0 +1,44 @@
+.extra-left-menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 48px;
+    height: calc(100% - 4px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*device desktop*/
+.btn-desktop-device, .btn-mobile-device{
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+    margin: auto;
+}
+
+
+.btn-desktop-device{
+    background-image: url("../img/common/Icon-Desktop.svg");
+    background-size: 20px 21.54px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*device mobile*/
+.btn-mobile-device{
+    background-image: url("../img/common/Icon-Mobile.svg");
+    background-size: 12.5px 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.layer-manager{
+    height: 48px;
+    width: 48px;
+    background-color: #EBEDF1;
+    background-image: url("../img/common/Icon-Layer.svg");
+    background-size: 21.81px 21.81px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
