@@ -13,6 +13,7 @@ class RightMenu{
         $('.select-event').change(this.selectEvent.bind(this));
         $('.add_btn').click(this.add);
         $('.sub_btn').click(this.sub);
+        this.addFontClass();
     }
 
     showStyle(){
@@ -96,5 +97,13 @@ class RightMenu{
             value = parseInt(value) - 1;
         }
         $(input).val(value);
+    }
+
+    addFontClass(){
+        var options = $('.option');
+        options.each((index,item)=>{
+            item.classList.add("ggs-regular");
+            $(item).attr("color","#404557")
+        });
     }
 }

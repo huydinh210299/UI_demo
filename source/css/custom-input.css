@@ -1,0 +1,126 @@
+/*Tắt nút tăng giảm mặc định cua input type number*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/*custom input number */
+.option-field1{
+    width: 65%;
+    height: 32px;
+    border-bottom: thin solid #DEE1E5;
+}
+.custom_input{
+    width: 100%;
+    display: flex;
+    height: 100%;
+}
+
+.custom_input input{
+    width: 88%;
+    background-color: unset;
+    border: unset;
+    text-indent: 10px;
+    font-size: 12px;
+}
+
+.custom_input input:focus{
+    outline: none;
+}
+
+.custom_input .buttons{
+    width: 12%;
+}
+.custom_input .buttons div{
+    height: 16px;
+    margin: 0;
+    padding: 0;
+    font-size: 54%;
+}
+
+/*căn chỉnh nút tăng*/
+.add_btn i{
+    padding-top: 8px;
+}
+
+
+/*loại select 1*/
+.select,.select-event {
+    position:relative;
+    width: 100%;
+    margin-top: 5px;
+    height: 32px !important;
+    margin-bottom: 10px;
+    border: thin solid #DEE1E5;
+    border-radius:3px;
+}
+.select:after ,.select-event::after{
+    content: '>';
+    font: 14px "Consolas", monospace;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    right: 12px;
+    top: 6px;
+    padding: 0 0 2px;
+    position: absolute;
+    pointer-events: none;
+}
+
+/*loại select 2*/
+.select2{
+    position:relative;
+    width: 100%;
+    height: 32px !important;
+    margin-bottom: 10px;
+}
+.select2:after {
+    content: '>';
+    font: 14px "Consolas", monospace;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    right: 11px;
+    top: 8px;
+    padding: 0 0 2px;
+    position: absolute;
+    pointer-events: none;
+}
+
+.select2 select{
+    background-color: unset;
+    border-bottom: thin solid #DEE1E5;
+}
+
+.select2 option{
+    font-size: 12px;
+}
+.select option {
+    font-size: 12px;
+}
+
+
+/*o select co ban  */
+
+select {
+    margin: 0;
+    width: 100%;
+    color:#404557;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+    text-indent: 10px;
+    font-size: 12px;
+    height: 100%;
+}

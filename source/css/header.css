@@ -15,7 +15,6 @@
     
 }
 
-/*basic-control*/
 /*icon misa*/
 .basic-control{
     display: flex;
@@ -56,10 +55,10 @@
 .btn-save-content{
     color:white;
     margin: auto;
-    font-size: larger;
+    font-size: 14px;
 }
 
-/*undo and redu button*/
+/*Nut undo va redu*/
 .btn-undo,.btn-redo{
     width: 40px;
     height: 100%;
@@ -80,7 +79,7 @@
     background-repeat: no-repeat;
 }
 
-/*Control thiết kế và thiết lập*/
+/*Nut thiết kế và thiết lập*/
 .tab-control{
     display: flex;
 }
@@ -94,7 +93,7 @@
 .btn-design,.btn-setting{
     color: #C0C4CC;
     margin: auto;
-    font-size: 120%;
+    font-size: 15px;
     display: table-cell;
     vertical-align: middle;
     text-align:center;
@@ -104,7 +103,7 @@
     margin-right: 30px;
 }
 
-/*preview control*/
+/*nut preview*/
 .preview-public-control{
     display: flex;
     justify-content: flex-end;
@@ -127,6 +126,7 @@
 .btn-preview-content{
     margin: auto;
     color: #fff;
+    font-size: 14px;
 }
 
 /*Nút xuất bản*/
@@ -142,6 +142,7 @@
 }
 
 .btn-publish-content{
+    font-size: 14px;
     padding-right: 10px;
     color: white;
     margin: auto;
@@ -154,83 +155,5 @@
     background-image: url("../img/common/Icon-Export.svg");
     background-size: 20px 20px;
     background-position: 0px 8px;
-    background-repeat: no-repeat;
-}
-
-/*
-    căn chỉnh nút thoát preview
-*/
-.btn-back{
-    display: flex;
-    margin: auto 20px;
-}
-
-.btn-back-icon{
-    margin: auto 5px;
-    height: 100%;
-    width: 16px;
-    background-image: url("../img/common/Icon-Left.svg");
-    background-size: 16px 16px;
-    background-position: center;
-    background-repeat: no-repeat; 
-}
-
-.btn-back-content{
-    color: #fff;
-    margin: auto;
-}
-
-
-/*căn chỉnh cho header preview*/
-
-.basic-control-preview{
-    display: flex;
-    height: 100%;
-    width: 100%;
-}
-
-.brand-icon-preview{
-    margin: auto 15px;
-    height: 100%;
-    width: 30px;
-    background-image: url("../img/common/Logo-Misa.svg");
-    background-size: 30px 30px;
-    background-position: center;
-    background-repeat: no-repeat; 
-}
-
-.brand-border-left-preview{
-    width: 1px;
-    height: 30px;
-    background-color: #707070;
-    margin-top: 15px;
-}
-
-.btn-back-preview{
-    display: flex;
-    color: #fff;
-    margin: auto 20px;
-}
-
-.btn-back-preview i{
-    font-size: 90%;
-    margin-right: 8px;
-}
-
-.btn-desktop-device-preview{
-    width: 70px;
-    height: 100%;
-    background-image: url("../img/common/Icon-Desktop.svg");
-    background-size: 30px 30px;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.btn-mobile-device-preview{
-    width: 70px;
-    height: 100%;
-    background-image: url("../img/common/Icon-Mobile.svg");
-    background-size: 30px 30px;
-    background-position: center;
     background-repeat: no-repeat;
 }

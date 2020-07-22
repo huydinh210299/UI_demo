@@ -20,24 +20,24 @@
                 <div class="brand-border-left"></div>
                 <div class="btn-save">
                     <div class="btn-save-icon"></div>
-                    <div class="btn-save-content">Lưu</div>
+                    <div class="btn-save-content ggs-bold">Lưu</div>
                 </div>
             </div>
             <div class="tab-control col-md-3">
                 <div class="btn-border">
-                    <div class="btn-design tab-btn active">Thiết kế</div>
+                    <div class="btn-design tab-btn active ggs-black">Thiết kế</div>
                 </div>
                 <div class="btn-border">
-                    <div class="btn-setting tab-btn">Thiết lập</div>
+                    <div class="btn-setting tab-btn ggs-black">Thiết lập</div>
                 </div>
             </div>
             <div class="preview-public-control col-md-4">
                 <div class="btn-preview">
                     <div class="btn-preview-icon"></div>
-                    <div class="btn-preview-content">Xem trước</div>
+                    <div class="btn-preview-content ggs-regular">Xem trước</div>
                 </div>
                 <div class="btn-publish">
-                    <div class="btn-publish-content">Xuất bản</div>
+                    <div class="btn-publish-content ggs-regular">Xuất bản</div>
                     <div class="btn-publish-icon"></div>
                 </div>
             </div>
@@ -46,7 +46,7 @@
         <!-- edit text -->
         <div class="edit-text">
             <div class="btn-more-template">
-                <div style="font-weight: bold; color: #3160D8;">Thêm</div>
+                <div class="ggs-bold">Thêm</div>
                 <div class="more-template-icon"><i class="fas fa-chevron-down"></i></div>
             </div>
             <div class="btn-undo"></div>
@@ -124,22 +124,23 @@
         <!-- khu vực kéo thả và điều chỉnh thuộc tính -->
         <div class="main-view">
             <div class="wrap-drop-zone">
+                <!--left menu-->
                 <div class="left-menu">
                     <div class="left-menu-switcher">
                         <div class="btn-template-wrapper active">
-                            <div class="btn-template btn-block active">Mẫu</div>
+                            <div class="btn-template btn-block active ggs-bold">Mẫu</div>
                         </div>
                         <div class="btn-basic-wrapper">
-                            <div class="btn-basic btn-block">Cơ bản</div>
+                            <div class="btn-basic btn-block ggs-bold">Cơ bản</div>
                         </div>
                     </div>
                     <div class="template-comp">
-                        <div class="sample btn-list-block">Mẫu<i class="fas fa-chevron-right"></i></div>
+                        <div class="sample btn-list-block ggs-regular">Mẫu<i class="fas fa-chevron-right"></i></div>
                     </div>
                     <div class="block-cate">
-                        <div class="layout btn-list-block">Chia bố cục<i class="fas fa-chevron-right"></i></div>
-                        <div class="basic btn-list-block">Căn bản<i class="fas fa-chevron-right"></i></div>
-                        <div class="application btn-list-block">Ứng dụng<i class="fas fa-chevron-right"></i></div>
+                        <div class="layout btn-list-block ggs-regular">Chia bố cục<i class="fas fa-chevron-right"></i></div>
+                        <div class="basic btn-list-block ggs-regular">Căn bản<i class="fas fa-chevron-right"></i></div>
+                        <div class="application btn-list-block ggs-regular">Ứng dụng<i class="fas fa-chevron-right"></i></div>
                     </div>
                 </div>
 
@@ -151,6 +152,10 @@
                         <div class="btn-mobile-device"></div>
                     </div>
                 </div>
+
+                <!--Layer manager-->
+                <div class="layer-container"></div>
+
                 <!-- <div class="drop-zone"></div> -->
                 <div class="editor-canvas">
                     <div id="gjs"></div>
@@ -166,26 +171,68 @@
                         <div class="btn-edit-wrap flex-fill">
                             <div class="btn-edit">
                                 <div class="btn-edit-icon"></div>
-                                <div class="btn-edit-content">Chỉnh sửa</div>
+                                <div class="btn-edit-content ggs-regular">Chỉnh sửa</div>
                             </div>
                         </div>
                         <div class="btn-effect-wrap flex-fill">
                             <div class="btn-effect">
                                 <div class="btn-effect-icon"></div>
-                                <div class="btn-effect-content">Hiệu ứng</div>
+                                <div class="btn-effect-content ggs-regular">Hiệu ứng</div>
                             </div>
                         </div>
                         <div class="btn-event-wrap flex-fill">
                             <div class="btn-event">
                                 <div class="btn-event-icon"></div>
-                                <div class="btn-event-content">Sự kiện</div>
+                                <div class="btn-event-content ggs-regular">Sự kiện</div>
                             </div>
                         </div>
                 </div>
-                <div class="style-content"></div>
+                <div class="style-content">
+                    <div class="state">
+                        <div class="state-label ggs-regular">Trạng thái</div>
+                        <label class="select">
+                            <select>
+                                <option selected value="1">Lựa chọn sự kiện</option>
+                                <option value="2">Chuyển section</option>
+                                <option value="3">Mở liên kết</option>
+                                <option value="4">Sự kiện đếm</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="align-wrapper d-flex">
+                        <div class="align-top flex-fill"></div>
+                        <div class="align-center-horizental flex-fill"></div>
+                        <div class="align-bottom flex-fill"></div>
+                        <div class="align-left flex-fill"></div>
+                        <div class="align-center-vertical flex-fill"></div>
+                        <div class="align-right flex-fill"></div>
+                    </div>
+                    <div class="opacity-wrapper">
+                        <div class="opacity">
+                            <div class="label ggs-regular">trong suốt</div>
+                            <input type="range" id="vol" name="vol" min="0" max="100" value="100">
+                            <div class="option-field ggs-regular">
+                                <input type="text" value="100%">
+                            </div>
+                        </div>
+                    </div>
+
+                        <div class="swing">
+                            <div class="label">Xoay</div>
+                            <div class="option-field1 option">
+                                <div class="custom_input">
+                                    <input type="number" min="0" value="0" class="number">
+                                    <div class="buttons">
+                                        <div class="add_btn"><i class="fas fa-chevron-up"></i></div>
+                                        <div class="sub_btn"><i class="fas fa-chevron-down"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
                 <div class="effect-content">
-                    <div style="color: #6E717D; font-size: 10px;">Kiểu hiệu ứng</div>
-                    <label class="select">
+                    <div style="color: #6E717D; font-size: 8px;" class="ggs-regular">Kiểu hiệu ứng</div>
+                    <label class="select option">
                         <select>
                             <option selected>Stretch-horizontal</option>
                             <option>Short Option</option>
@@ -193,9 +240,9 @@
                         </select>
                     </label>
                     <div class="option-wrapper">
-                        <div class="label option-label">Kiểu gia tốc</div>
+                        <div class="label option-label ggs-regular" >Kiểu gia tốc</div>
                         <div class="option-field">
-                            <label class="select2">
+                            <label class="select2 option">
                                 <select>
                                     <option selected>Stretch-horizontal</option>
                                     <option>Short Option</option>
@@ -206,8 +253,8 @@
                     </div>
                     
                     <div class="option-wrapper">
-                        <div class="label option-label">Độ chậm(s)</div>
-                        <div class="option-field1">
+                        <div class="label option-label ggs-regular">Độ chậm(s)</div>
+                        <div class="option-field1 option">
                             <div class="custom_input">
                                 <input type="number" min="0" value="0" class="number">
                                 <div class="buttons">
@@ -219,8 +266,8 @@
                     </div>
 
                     <div class="option-wrapper">
-                        <div class="label option-label">Thời gian(s)</div>
-                        <div class="option-field1">
+                        <div class="label option-label ggs-regular">Thời gian(s)</div>
+                        <div class="option-field1 option">
                             <div class="custom_input">
                                 <input type="number" min="0" value="0" class="number">
                                 <div class="buttons">
@@ -232,9 +279,9 @@
                     </div>
 
                     <div class="option-wrapper">
-                        <div class="label option-label">Lặp lại hiệu ứng</div>
+                        <div class="label option-label ggs-regular">Lặp lại hiệu ứng</div>
                         <div class="option-field">
-                            <label class="select2">
+                            <label class="select2 option">
                                 <select>
                                     <option selected>Không</option>
                                     <option>Luôn luôn</option>
@@ -244,9 +291,9 @@
                     </div>
 
                 </div>
-                <div class="event-content">
-                    <p style="font-size: 14px; font-weight: 500;">Tên section đang chọn</p>
-                    <div style="color: #6E717D; font-size: 10px;">Kiểu hiệu ứng</div>
+                <div class="event-content option">
+                    <p style="font-size: 14px;color: #060E2E;" class="ggs-bold">Tên section đang chọn</p>
+                    <div style="color: #6E717D; font-size: 8px;" class="ggs-regular">Sự kiện</div>
                     <label class="select-event">
                         <select>
                             <option selected value="1">Lựa chọn sự kiện</option>
@@ -255,7 +302,7 @@
                             <option value="4">Sự kiện đếm</option>
                         </select>
                     </label>
-                        <div class="moveSection-content">
+                        <div class="moveSection-content ggs-regular">
                             <div class="option-wrapper">
                                 <div class="label option-label">Section</div>
                                 <div class="option-field">
@@ -270,7 +317,7 @@
                         </div>
                         <div class="openLink-content">
                             <div class="label">URL</div>
-                            <input type="text" class="url" style="font-size: 12px;">
+                            <input type="text" class="url ggs-light-italic" style="font-size: 12px;">
                             <div class="checkbox">
                                 <input type="checkbox" id="blank" name="blank" value="1">
                                 <div>Mở cửa sổ mới</div>
@@ -331,6 +378,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="../source/js/component/application/application-component.js"></script>
     <script src="../source/js/component/basic/basic-component.js"></script>
     <script src="../source/js/component/layout/layout-component.js"></script>
     <script src="../source/js/grapesJS/grapes.min.js"></script>
@@ -339,6 +387,7 @@
     <script src="../source/js/UI/header-act.js"></script>
     <script src="../source/js/UI/right-menu-act.js"></script>
     <script src="../source/js/UI/left-menu-act.js"></script>
+    <script src="../source/js/UI/extra-leftmenu.js"></script>
     <script src="../source/js/UI/index.js"></script>
 </body>
 </html>

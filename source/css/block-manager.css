@@ -1,0 +1,59 @@
+/*theme cho các block*/
+.gjs-pn-panels{
+    display: none;
+}
+
+.gjs-blocks-cs{
+    background-color: #F6F7F9 !important;
+}
+
+.gjs-title{
+    background-color: #404557 !important;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.gjs-block-label p{
+    color: #404557;
+}
+
+/*block content*/
+#blocks{
+    position: absolute;
+    width: 220px;
+    height: calc(100% - 4px);
+    background-color: #EBEDF1;
+    left: 200px;
+    top: 0;
+    z-index: 3;
+}
+
+#blocks{
+    overflow: scroll;
+}
+
+#blocks::-webkit-scrollbar {
+    display: none;
+    overflow: scroll;
+}
+
+#blocks{
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+}
+
+/*căn chỉnh các khối block*/
+.gjs-block{
+    height: 98px !important;
+    width: 98px !important;
+    background-color: #fff !important;
+    border-radius: 8px !important;
+}
+
+.gjs-blocks-c {
+    background-color: #EBEDF1;
+}
+
+.block{
+    margin-bottom: 16px;
+}

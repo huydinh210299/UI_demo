@@ -142,8 +142,89 @@
     font-style: normal;
 }
 
-.google-sans-italic {
+.ggs-black {
+    font-family: 'Google Sans';
+    font-weight: 900;
+    font-style: normal;
+}
+
+.ggs-regular,.gjs-layer-name {
+    font-family: 'Google Sans';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.ggs-light {
+    font-family: 'Google Sans';
+    font-weight: 300;
+    font-style: normal;
+}
+
+.ggs-bold {
+    font-family: 'Google Sans';
+    font-weight: bold;
+    font-style: normal;
+}
+
+.ggs-italic {
     font-family: 'Google Sans';
     font-weight: normal;
     font-style: italic;
+}
+
+.ggs-black-italic {
+    font-family: 'Google Sans';
+    font-weight: 900;
+    font-style: italic;
+}
+
+.ggs-medium-italic {
+    font-family: 'Google Sans';
+    font-weight: 500;
+    font-style: italic;
+}
+
+.ggs-bold-italic {
+    font-family: 'Google Sans';
+    font-weight: bold;
+    font-style: italic;
+}
+
+.ggs-light-italic {
+    font-family: 'Google Sans';
+    font-weight: 300;
+    font-style: italic;
+}
+
+.ggs-thin-italic {
+    font-family: 'Google Sans';
+    font-weight: 100;
+    font-style: italic;
+}
+
+.ggs-thin-italic {
+    font-family: 'Google Sans';
+    font-weight: 500;
+    font-style: normal;
+}
+
+.ggs-thin {
+    font-family: 'Google Sans';
+    font-weight: 100;
+    font-style: normal;
+}
+
+/*custom giao dien grapesJS*/
+.gjs-layer-name {
+    font-family: 'Google Sans';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.gjs-block-label{
+    font-family: 'Google Sans' !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+    font-size: 10px !important;
 }

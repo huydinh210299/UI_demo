@@ -1,0 +1,55 @@
+/*layer manager*/
+.layer-container{
+    position: absolute;
+    width: 220px;
+    height: calc(100% - 4px);
+    left: 48px;
+    top: 0;
+    z-index: 3;
+    background-color: #EBEDF1;
+}
+
+.layer-container::-webkit-scrollbar{
+    display: none;
+    overflow: scroll;
+}
+
+.layer-container{
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+    overflow: scroll;
+}
+
+/*custom mac dinh cua thu vien */
+
+.gjs-layer-vis{
+    display: none !important;
+}
+
+.gjs-layer-count{
+    display: none !important;
+}
+
+.gjs-layer-move{
+    display: none !important;
+}
+
+.gjs-layer-caret{
+    left: -30px !important;
+    color: #404557 !important;
+}
+
+.gjs-layer-title-c{
+    background-color: #EBEDF1 !important;
+}
+
+.gjs-layer-name{
+    color: #404557 !important;
+} 
+.gjs-layer-title{
+    border-bottom: unset !important;
+}
+
+.gjs-layer-title:hover{
+    background-color:  rgba(49, 96, 216, 0.1) !important;
+}

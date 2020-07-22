@@ -12,7 +12,7 @@
     border-bottom:2px solid #E3E5E9;
 }
 
-/*Chỉnh sửa nút edit và effect*/
+/*Chỉnh sửa nút edit, effect, event*/
 .btn-edit-wrap,.btn-effect-wrap,.btn-event-wrap{
     width: 33%;
     height: 100%;
@@ -53,13 +53,13 @@
 }
 
 .btn-edit-content, .btn-effect-content,.btn-event-content{
-    font-size: 10px;
+    font-size: 8px;
     margin: 3px 0;
     text-align: center;
 }
 
 
-/*chỉnh sửa cho style content và layer content*/
+/*chỉnh sửa cho style content, layer content, event content*/
 .style-content, .effect-content, .event-content{
     width: 100%;
     height: calc(100% - 48px);
@@ -68,9 +68,8 @@
     padding: 16px;
 }
 
-/*căn chỉnh cho style manager và effect manafer*/
 /**
-style manager
+style manager: tat thanh cuon mac dinh
 */
 
 .style-content{
@@ -79,12 +78,12 @@ style manager
 
 .style-content::-webkit-scrollbar {
     display: none;
-  }
-
-  /*Căn chỉnh vị trí cho thanh chọn màu*/
-.sp-container{
-    left: calc(100vw - 300px) !important;
 }
+
+/*Căn chỉnh vị trí cho thanh chọn màu*/
+/* .sp-container{
+    left: calc(100vw - 300px) !important;
+} */
 
 
 /*màu sắc cho các label*/
@@ -93,79 +92,8 @@ style manager
     font-size: 12px;
 }
 
-/*Chỉnh cho phần hiệu ứng: effect  */
-
-select {
-    margin: 0;
-    width: 100%;
-    color:#060E2E;
-    border:none;
-    outline:none;
-    display: inline-block;
-    -webkit-appearance:none;
-    -moz-appearance:none;
-    appearance:none;
-    cursor:pointer;
-    text-indent: 10px;
-    font-size: 12px;
-    height: 100%;
-}
-
-option{
-    background-color: #F6F7F9;
-}
-
-/*loại select 1*/
-.select,.select-event {
-    position:relative;
-    width: 100%;
-    margin-top: 5px;
-    height: 32px !important;
-    margin-bottom: 10px;
-    border: thin solid #DEE1E5;
-    border-radius:3px;
-}
-.select:after ,.select-event::after{
-    content: '>';
-    font: 14px "Consolas", monospace;
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-    right: 12px;
-    top: 6px;
-    padding: 0 0 2px;
-    position: absolute;
-    pointer-events: none;
-}
-
-/*loại select 2*/
-.select2{
-    position:relative;
-    width: 100%;
-    height: 32px !important;
-    margin-bottom: 10px;
-}
-.select2:after {
-    content: '>';
-    font: 14px "Consolas", monospace;
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-    right: 11px;
-    top: 8px;
-    padding: 0 0 2px;
-    position: absolute;
-    pointer-events: none;
-}
-
-.select2 select{
-    background-color: unset;
-    border-bottom: thin solid #DEE1E5;
-}
 /*
-*Căn chỉnh cho các đối tượng của từng option
+*Chinh thuoc tinh cho cac option
 */
 .right-menu .option-wrapper{
     width: 100%;
@@ -200,61 +128,14 @@ option{
     outline: none;
 }
 
-/*custom input number */
-.option-field1{
-    width: 65%;
-    height: 32px;
-    border-bottom: thin solid #DEE1E5;
-}
-.custom_input{
-    width: 100%;
-    display: flex;
-    height: 100%;
-}
-
-.custom_input input{
-    width: 88%;
-    background-color: unset;
-    border: unset;
-    text-indent: 10px;
-    font-size: 12px;
-}
-
-.custom_input input:focus{
-    outline: none;
-}
-
-.custom_input .buttons{
-    width: 12%;
-}
-.custom_input .buttons div{
-    height: 16px;
-    margin: 0;
-    padding: 0;
-    font-size: 54%;
-}
-/*căn chỉnh nút tăng*/
-.add_btn i{
-    padding-top: 8px;
-}
-
-/*Tắt nút tăng giảm mặc định*/
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-input[type=number] {
-  -moz-appearance: textfield;
-}
 
 
-/*Lựa chọn sự kiện*/
+/*Noi dung cac su kien*/
 .moveSection-content,.openLink-content,.count-content{
     width: 100%;
 }
 
+/*mo lien ket phan su kien*/
 .url{
     width: 100%;
     height: 32px;
@@ -268,6 +149,7 @@ input[type=number] {
     outline: none;
 }
 
+/*checkbox phan su kien*/
 .checkbox{
     display: flex;
 }
@@ -275,4 +157,9 @@ input[type=number] {
 .checkbox input{
     margin: auto 0;
     margin-right: 5px;
+}
+
+/*kich thuoc chu mac dinh cua input*/
+input{
+    font-size: 12px;
 }

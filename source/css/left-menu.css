@@ -1,10 +1,10 @@
-/*chỉnh sửa menu bên trái*/
+/*menu ben trai*/
 .left-menu{
     position: absolute;
     z-index: 3;
     width: 200px;
-    top: 22px;
-    height: calc(100% - 22px);
+    top: 0;
+    height: calc(100% - 4px);
     background-color: #F6F7F9;
 }
 
@@ -12,7 +12,7 @@
     height: 46px;
     width: 100%;
     background-color: #fff;
-    border-top: thin solid #404557;
+    border-top: thin solid #E3E5E9;
     border-bottom: 2px solid #E3E5E9;
     display: flex;
     justify-content: space-around;
@@ -25,6 +25,9 @@
     position: relative;
 }
 
+.btn-block{
+    font-size: 14px;
+}
 
 .btn-template{
     width: 31.56px;
@@ -62,34 +65,8 @@
     display: none;
 }
 
-/*theme cho các block*/
-.gjs-pn-panels{
-    display: none;
-}
 
-.gjs-blocks-cs{
-    background-color: #F6F7F9 !important;
-}
-
-.gjs-title{
-    background-color: #404557 !important;
-    border-radius: 8px;
-    color: #fff;
-}
-
-/*block content*/
-#blocks{
-    position: absolute;
-    width: 220px;
-    height: calc(100% - 28px);
-    background-color: #F6F7F9;
-    left: 200px;
-    top: 23px;
-    z-index: 3;
-    background-color: #EBEDF1;
-}
-
-/*chỉnh sửa cho nội dung bọc các block*/
+/*chỉnh sửa cho nội dung bọc các nut list block*/
 .template-comp,.block-cate{
     padding: 8px;
 }
@@ -105,6 +82,7 @@
     justify-content: space-between;
     align-items: center;
     color: #404557;
+    font-size: 14px;
 }
 
 .block-cate p, .template-comp p{
@@ -116,17 +94,6 @@
     margin-right: 10px;
 }
 
-/*căn chỉnh các khối block*/
-.gjs-block{
-    height: 98px !important;
-    width: 98px !important;
-    background-color: #fff !important;
-    border-radius: 8px !important;
-}
-
-.gjs-blocks-c {
-    background-color: #EBEDF1;
-}
 
 
 /*màu cho các btn-list-block khi active*/
@@ -134,11 +101,4 @@
     background-color: #404557;
     border: #707070;
     color: #fff;
-}
-
-.block{
-    margin-bottom: 16px;
-}
-.gjs-block-label p{
-    color: #404557;
 }

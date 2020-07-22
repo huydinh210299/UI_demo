@@ -1,0 +1,76 @@
+/*căn chỉnh cho header preview*/
+
+.basic-control-preview{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.brand-icon-preview{
+    margin: auto 15px;
+    height: 100%;
+    width: 30px;
+    background-image: url("../img/common/Logo-Misa.svg");
+    background-size: 30px 30px;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.brand-border-left-preview{
+    width: 1px;
+    height: 30px;
+    background-color: #707070;
+    margin-top: 15px;
+}
+
+.btn-back-preview{
+    display: flex;
+    color: #fff;
+    margin: auto 20px;
+}
+
+.btn-back-preview i{
+    font-size: 90%;
+    margin-right: 8px;
+}
+
+.btn-desktop-device-preview{
+    width: 70px;
+    height: 100%;
+    background-image: url("../img/common/Icon-Desktop.svg");
+    background-size: 30px 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.btn-mobile-device-preview{
+    width: 70px;
+    height: 100%;
+    background-image: url("../img/common/Icon-Mobile.svg");
+    background-size: 30px 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*
+    căn chỉnh nút thoát preview
+*/
+.btn-back{
+    display: flex;
+    margin: auto 20px;
+}
+
+.btn-back-icon{
+    margin: auto 5px;
+    height: 100%;
+    width: 16px;
+    background-image: url("../img/common/Icon-Left.svg");
+    background-size: 16px 16px;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.btn-back-content{
+    color: #fff;
+    margin: auto;
+}

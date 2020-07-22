@@ -4,6 +4,10 @@
 @import "right-menu.css";
 @import "edit-text.css";
 @import "extra-left-menu.css";
+@import "custom-input.css";
+@import "block-manager.css";
+@import "layer-container.css";
+@import "style-manager.css";
 
 body{
     margin: unset;
@@ -22,7 +26,8 @@ body{
 /*mặc định các nút trỏ vào là hình bàn tay*/
 .btn-desktop-device,.btn-mobile-device,.btn-undo,.btn-redo,.btn-design,.btn-setting,.btn-more-template,
 .btn-publish,.btn-preview,.btn-save,.btn-edit,.btn-effect,.btn-event,.btn-template-wrapper,.btn-basic-wrapper,
-.btn-mobile-device-preview,.btn-desktop-device-preview,.btn-back-preview,.btn-list-block{
+.btn-mobile-device-preview,.btn-desktop-device-preview,.btn-back-preview,.btn-list-block,
+.layer-manager{
     cursor: pointer;
 }
 

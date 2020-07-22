@@ -19,12 +19,21 @@
     border-radius: 6px;
 }
 
+.btn-more-template div:first-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px; 
+    color: #3160D8;
+}
+
 .more-template-icon{
     font-size: 90%;
     margin: auto 0px;
     margin-left: 10px;
     color: #3160D8;
 }
+
 /*css select font*/
 .edit-text .option-wrapper{
         width: auto !important;

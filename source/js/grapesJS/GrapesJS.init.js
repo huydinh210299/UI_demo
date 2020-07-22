@@ -25,14 +25,18 @@ editor = grapesjs.init({
         }]
     },
 
-    styleManager: {
-        appendTo: '.style-content',
-        clearProperties: true,
-        sectors: STYLEMANAGER,
-    },
+    // styleManager: {
+    //     appendTo: '.style-content',
+    //     clearProperties: true,
+    //     sectors: STYLEMANAGER,
+    // },
 
     blockManager: {
         appendTo: '#blocks'
+    },
+
+    layerManager: {
+        appendTo: '.layer-container'
     },
 })
 

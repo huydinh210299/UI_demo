@@ -34,7 +34,7 @@ class LeftMenu{
         })
         
         $('.application').click(()=>{
-            this.blockManager.render(basic_component);
+            this.blockManager.render(application_component);
             this.hideWhenDrag();
         })
         
