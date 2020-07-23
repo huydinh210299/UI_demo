@@ -1,5 +1,26 @@
 @import "progressbar.css";
 
+.style-content::-webkit-scrollbar {
+    display: none;
+}
+
+.style-content{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+
+/*input tyoe number*/
+.style-number.option-field1{
+    width: 40px;
+    margin-left: 20px;
+}
+
+.style-number.option-field1 input{
+    text-indent: 0;
+    width: 75%;
+}
+
 /*can chinh cac nut align*/
 
 .align-wrapper{
@@ -110,12 +131,57 @@
     align-items: center;
 }
 
-.swing .option-field1{
-    width: 40px;
-    margin-left: 20px;
+/*margin và padding*/
+.margin-padding{
+    height: 210px;
+    width: 100%;
+    padding: 14px 16px;
+    border-bottom: 2px solid #E3E5E9;
 }
 
-.swing .option-field1 input{
-    text-indent: 0;
-    width: 75%;
+.margin,.padding{
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+
+.margin-padding .col1{
+    flex-grow: 1;
+}
+
+.margin-padding .col2{
+    flex-grow: 4;
+    display: flex;
+    flex-direction: column;
+}
+
+.margin-padding .col2 .row{
+    height: calc(100% / 3);
+    width: 100%;
+}
+
+.margin-padding .col2 .row{
+    display: flex;
+}
+
+.margin-padding .col2 .row .col{
+    flex-grow: 1;
+    padding: 0;
+}
+
+.padding .col2 .row:nth-child(2) .col:nth-child(2){
+    background-image: url("../img/style-manager/Icon-Padding.svg");
+    background-size: 46px 21px ;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    padding-left: 4px;
+}
+
+.margin .col2 .row:nth-child(2) .col:nth-child(2){
+    background-image: url("../img/style-manager/Icon-Border.svg");
+    background-size: 46px 21px ;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-top: 40px;
 }

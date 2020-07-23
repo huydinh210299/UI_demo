@@ -36,7 +36,7 @@
 .layer-manager{
     height: 48px;
     width: 48px;
-    background-color: #EBEDF1;
+    /* background-color: #EBEDF1; */
     background-image: url("../img/common/Icon-Layer.svg");
     background-size: 21.81px 21.81px;
     background-position: center;

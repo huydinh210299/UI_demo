@@ -8,6 +8,7 @@
 @import "block-manager.css";
 @import "layer-container.css";
 @import "style-manager.css";
+@import "header-preview.css";
 
 body{
     margin: unset;
