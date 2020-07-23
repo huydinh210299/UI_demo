@@ -82,7 +82,6 @@ class RightMenu{
     }
 
     add(){
-        debugger
         var input = $(this).closest('.custom_input').children(".number");
         var value = $(input).val();
         value = parseInt(value) + 1;
@@ -90,7 +89,6 @@ class RightMenu{
     }
 
     sub(){
-        debugger
         var input = $(this).closest('.custom_input').children(".number");
         var value = $(input).val();
         if(parseInt(value) > 0){
